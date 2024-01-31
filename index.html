@@ -45,78 +45,80 @@
 
         <!-- header navbar/btns -->
         <div class="bg-white flex justify-between items-center px-5 py-8">
+
             <!-- logo -->
             <div class="w-[15%]">
                 <a href="#">
                     <img class="w-64" src="https://marbslifestyle.com/wp-content/uploads/2022/05/logo-marbslifestyle.svg" alt="marbslifestyle logo">
                 </a>
             </div>
+
             <!-- navbar -->
-            <div class="w-[60%] ml-6">
+            <div class="w-[60%] ml-6 relative">
                 <ul class="flex gap-5 text-[#102a66] text-lg font-light">
                     <li class="relative group">
-                        <a href="#" class="">
-                            <span class="text-xs"><i class="fa-solid fa-location-dot"></i></span>
+                        <a href="#" class="hover:text-[#007FB6] pb-4 duration-200">
+                            <span class="text-xs"><i class="fa-solid fa-location-dot group-hover:text-[#102a66]"></i></span>
                             Location & Services Guide
-                            <span class="navbar_arrow"><i class="fa-solid fa-angle-down transition-transform duration-0 group-hover:rotate-180"></i></span>
+                            <span class="navbar_arrow"><i class="fa-solid fa-angle-down text-[#007FB6] transition-transform duration-0 group-hover:rotate-180 group-hover:text-[#bd944e]"></i></span>
                         </a>
-                        <ul class="absolute top-10 w-[280px] flex flex-col gap-2 text-[16px] px-4 pb-4 rounded-lg shadow-sm shadow-black invisible transition-transform duration-500 group-hover:visible">
-                            <div class="w-4 h-4 rotate-45 translate-x-56 -translate-y-2 bg-white"></div>
-                            <li>
+                        <ul class="absolute dropdown_shadow top-10 w-[280px] flex flex-col gap-2 text-[16px] px-4 pb-4 rounded-lg  opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-500">
+                            <div class="w-4 h-4 rotate-45 translate-x-56 -translate-y-2 bg-white dropdown_shadow"></div>
+                            <li class="hover:text-[#007FB6] duration-200">
                                 <a href="#" class="flex items-center gap-1">
                                     <img class="w-6" src="https://marbslifestyle.com/wp-content/uploads/2023/03/Icon_BeachPoolClubs_gold-148px-1.png" alt="">
                                     Beach Clubs & Pool Clubs
                                 </a>
                             </li>
-                            <li>
+                            <li class="hover:text-[#007FB6] duration-200">
                                 <a href="#" class="flex items-center gap-1">
                                     <img class="w-6" src="https://marbslifestyle.com/wp-content/uploads/2023/03/Icon_Restaurant_gold-148px.png" alt="">
                                     Restaurants
                                 </a>
                             </li>
-                            <li>
+                            <li class="hover:text-[#007FB6] duration-200">
                                 <a href="#" class="flex items-center gap-1">
                                     <img class="w-6" src="https://marbslifestyle.com/wp-content/uploads/2023/03/Icon_Hotel_gold-148px.png" alt="">
                                     Hotels & Resorts
                                 </a>
                             </li>
-                            <li>
+                            <li class="hover:text-[#007FB6] duration-200">
                                 <a href="#" class="flex items-center gap-1">
                                     <img class="w-6" src="https://marbslifestyle.com/wp-content/uploads/2023/03/Icon_NightClubs_gold-148px.png" alt="">
                                     Drinks & Night Out
                                 </a>
                             </li>
-                            <li>
+                            <li class="hover:text-[#007FB6] duration-200">
                                 <a href="#" class="flex items-center gap-1">
                                     <img class="w-6" src="https://marbslifestyle.com/wp-content/uploads/2023/09/ML-icons-categories_icon_nightlife-gold-80px.svg" alt="">
                                     Nightclubs
                                 </a>
                             </li>
-                            <li>
+                            <li class="hover:text-[#007FB6] duration-200">
                                 <a href="#" class="flex items-center gap-1">
                                     <img class="w-6" src="https://marbslifestyle.com/wp-content/uploads/2023/04/ML-blog-golf-gold-148px.png" alt="">
                                     Golf Clubs & Courses
                                 </a>
                             </li>
-                            <li>
+                            <li class="hover:text-[#007FB6] duration-200">
                                 <a href="#" class="flex items-center gap-1">
                                     <img class="w-6" src="https://marbslifestyle.com/wp-content/uploads/2022/11/ML-icons-categories_icon_todo-gold-148px@2x.png" alt="">
                                     Things To Do
                                 </a>
                             </li>
-                            <li>
+                            <li class="hover:text-[#007FB6] duration-200">
                                 <a href="#" class="flex items-center gap-1">
                                     <img class="w-6" src="https://marbslifestyle.com/wp-content/uploads/2023/03/Icon_Delishop_gold-148px.png" alt="">
                                     Deli Shops
                                 </a>
                             </li>
-                            <li>
+                            <li class="hover:text-[#007FB6] duration-200">
                                 <a href="#" class="flex items-center gap-1">
                                     <img class="w-6" src="https://marbslifestyle.com/wp-content/uploads/2023/03/Icon_Accomodations_gold-148px.png" alt="">
                                     Real Estate Agents
                                 </a>
                             </li>
-                            <li>
+                            <li class="hover:text-[#007FB6] duration-200">
                                 <a href="#" class="flex items-center gap-1 text-[#bd944e]">
                                     <span class=""><i class="fa-solid fa-plus"></i></span>
                                     <span class="underline ml-1">View all locations</span>
@@ -124,29 +126,90 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="relative group li_nav">
+                        <a href="#" class="hover:text-[#007FB6] pb-4 duration-200">
                             Inspiration
-                            <span class="navbar_arrow"><i class="fa-solid fa-angle-down"></i></span>
+                            <span class="navbar_arrow"><i class="fa-solid fa-angle-down text-[#007FB6] transition-transform duration-0 group-hover:rotate-180 group-hover:text-[#bd944e]"></i></span>
                         </a>
+                        <ul class="absolute dropdown_shadow top-10 -left-28 w-[250px] flex flex-col gap-2 text-[16px] px-4 pb-4 rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-500">
+                            <div class="w-4 h-4 rotate-45 translate-x-48 -translate-y-2 bg-white dropdown_shadow"></div>
+                            <li class="hover:text-[#007FB6] duration-200">
+                                <a href="#" class="flex items-center gap-1">
+                                    <img class="w-6" src="https://marbslifestyle.com/wp-content/uploads/2023/06/ML-icons-categories_icon_tips-gold-148px.png" alt="">
+                                    Tips
+                                </a>
+                            </li>
+                            <li class="hover:text-[#007FB6] duration-200">
+                                <a href="#" class="flex items-center gap-1">
+                                    <img class="w-6" src="https://marbslifestyle.com/wp-content/uploads/2023/03/Icon_ToDo_gold-148px.png" alt="">
+                                    Things To Do
+                                </a>
+                            </li>
+                            <li class="hover:text-[#007FB6] duration-200">
+                                <a href="#" class="flex items-center gap-1">
+                                    <img class="w-6" src="https://marbslifestyle.com/wp-content/uploads/2023/03/Icon_Restaurant_gold-148px.png" alt="">
+                                    Restaurants
+                                </a>
+                            </li>
+                            <li class="hover:text-[#007FB6] duration-200">
+                                <a href="#" class="flex items-center gap-1">
+                                    <img class="w-6" src="https://marbslifestyle.com/wp-content/uploads/2023/03/Icon_Hotel_gold-148px.png" alt="">
+                                    Hotels
+                                </a>
+                            </li>
+                            <li class="hover:text-[#007FB6] duration-200">
+                                <a href="#" class="flex items-center gap-1">
+                                    <img class="w-6" src="https://marbslifestyle.com/wp-content/uploads/2023/03/Icon_BeachPoolClubs_gold-148px.png" alt="">
+                                    Beach & Pool Clubs
+                                </a>
+                            </li>
+                            <li class="hover:text-[#007FB6] duration-200">
+                                <a href="#" class="flex items-center gap-1">
+                                    <img class="w-6" src="https://marbslifestyle.com/wp-content/uploads/2023/03/Icon_Adventures_gold-148px.png" alt="">
+                                    Adventures
+                                </a>
+                            </li>
+                            <li class="hover:text-[#007FB6] duration-200">
+                                <a href="#" class="flex items-center gap-1">
+                                    <img class="w-6" src="https://marbslifestyle.com/wp-content/uploads/2023/03/Icon_NightClubs_gold-148px.png" alt="">
+                                    Night Clubs
+                                </a>
+                            </li>
+                            <li class="hover:text-[#007FB6] duration-200">
+                                <a href="#" class="flex items-center gap-1">
+                                    <img class="w-6" src="https://marbslifestyle.com/wp-content/uploads/2023/03/Icon_Holidays_gold-148px.png" alt="">
+                                    Holidays
+                                </a>
+                            </li>
+                            <li class="hover:text-[#007FB6] duration-200">
+                                <a href="#" class="flex items-center gap-1 text-[#bd944e]">
+                                    <span class=""><i class="fa-solid fa-plus"></i></span>
+                                    <span class="underline ml-1">View all blogs</span>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="relative group">
+                        <a href="#" class="hover:text-[#bd944e] p-4 duration-200">
                             Marbella and surroundings
-                            <span class="navbar_arrow"><i class="fa-solid fa-angle-down"></i></span>
+                            <span class="navbar_arrow"><i class="fa-solid fa-angle-down text-[#007FB6] transition-transform duration-0 group-hover:rotate-180 group-hover:text-[#bd944e]"></i></span>
                         </a>
+                        <!-- <div class="absolute top-10 left-[-251%] w-[100vw] bg-red-500 flex flex-col gap-2 text-[16px] px-4 pb-4 rounded-lg     group-hover:opacity-100 group-hover:visible transition-opacity duration-500">                          
+                            
+                        </div> -->
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="relative group">
+                        <a href="#" class="hover:text-[#bd944e] p-4 duration-200">
                             Our Choice
-                            <span class="navbar_arrow"><i class="fa-solid fa-angle-down"></i></span>
+                            <span class="navbar_arrow"><i class="fa-solid fa-angle-down text-[#007FB6] transition-transform duration-0 group-hover:rotate-180 group-hover:text-[#bd944e]"></i></span>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">About Us</a>
+                    <li class="relative group">
+                        <a href="#" class="hover:text-[#007FB6] p-4 duration-200">About Us</a>
                     </li>
                 </ul>
             </div>
+
             <!-- btns -->
             <div class="flex items-center justify-between w-[25%]">
                 <div class="text-lg">
